@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testdata":"npx cypress run --browser chrome --headed --spec cypress/e2e/ui.cy.js",
+    "testcypress":"npx cypress run --record --key b9c8ea66-0606-4abf-baa0-e569d22d4b5e  cypress/e2e/ui.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.6"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  }
+}
