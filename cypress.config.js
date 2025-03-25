@@ -12,6 +12,7 @@ module.exports = defineConfig({
       password: "7ebece7c798",
       user: "umair"
     },
+    specPattern:"cypress/e2e/**/*.cy.js"
     // },
   },
 });
