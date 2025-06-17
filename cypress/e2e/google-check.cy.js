@@ -17,4 +17,7 @@ describe("Testing UI", function () {
       }
     });
   });
+  it("ADDING NEW TEST", () => {
+    cy.log("HELLO");
+  });
 });
